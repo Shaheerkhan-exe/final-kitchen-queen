@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Build Your Own Thali — Kitchen Queen Karachi</title>
+<meta name="description" content="Design a custom desi thali in four steps: rice or bread, a main dish, a side and dessert. Built fresh by Kitchen Queen in Karachi.">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body data-page="meal-builder">
+
+<nav id="kqRail"></nav>
+<header id="kqHeader"></header>
+
+<main class="kq-main">
+  <h1 class="kq-page-title">Build Your Thali</h1>
+  <p class="kq-page-sub">Four steps. Your combination. Cooked to order.</p>
+
+  <div class="kq-builder">
+    <div>
+      <div class="kq-steps" id="kqSteps"></div>
+      <div id="kqStepPanel"></div>
+    </div>
+
+    <aside class="kq-tray">
+      <div class="kq-thali-plate"><div id="kqPlateCount"><b>0</b><small>OF 4</small></div></div>
+      <div class="kq-tray-items" id="kqTrayItems"></div>
+      <div class="kq-tray-total"><span>Thali total</span><span id="kqTrayTotal">Rs 0</span></div>
+      <button class="kq-btn" id="kqTrayAdd"><i class="fa-solid fa-basket-shopping"></i> Add Thali to Basket</button>
+    </aside>
+  </div>
+</main>
+
+<footer id="kqFooter"></footer>
+<div id="kqShellExtras"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Desi Catering for Events in Karachi — Kitchen Queen</title>
+<meta name="description" content="Home-style desi catering for mehndis, dawats, offices and family gatherings across Karachi. Request a custom quote from Kitchen Queen.">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body data-page="catering">
+
+<nav id="kqRail"></nav>
+<header id="kqHeader"></header>
+
+<main class="kq-main">
+  <h1 class="kq-page-title">Catering &amp; Dawat Service</h1>
+  <p class="kq-page-sub">From a 20-guest family dinner to a 400-plate mehndi — same home kitchen, bigger degs.</p>
+
+  <div class="kq-catering">
+    <div class="kq-cater-left">
+      <div class="kq-info-card">
+        <div class="kq-info-row"><span class="ico"><i class="fa-solid fa-champagne-glasses"></i></span><span><b>Weddings &amp; Mehndi</b><span>Biryani, karahi, nihari and live naan counters.</span></span></div>
+        <div class="kq-info-row"><span class="ico"><i class="fa-solid fa-briefcase"></i></span><span><b>Corporate Lunches</b><span>Individually packed thalis delivered on schedule.</span></span></div>
+        <div class="kq-info-row"><span class="ico"><i class="fa-solid fa-cake-candles"></i></span><span><b>Birthdays &amp; Aqiqah</b><span>Custom desi menus with dessert platters.</span></span></div>
+        <div class="kq-info-row"><span class="ico"><i class="fa-solid fa-utensils"></i></span><span><b>Setup Included</b><span>Chafing dishes, servers and disposables on request.</span></span></div>
+      </div>
+      <div class="kq-info-card" style="margin-top:16px">
+        <div class="kq-cater-ico"><i class="fa-solid fa-clock"></i></div>
+        <p style="margin:0;font-size:.86rem">Please book at least <b>48 hours</b> in advance. Orders above 150 guests need 5 days' notice.</p>
+      </div>
+    </div>
+
+    <div class="kq-cater-right">
+      <form class="kq-form-card" id="kqCaterForm" novalidate>
+        <h3>Request a Quote</h3>
+        <div class="kq-form-2col">
+          <div class="kq-field">
+            <label for="cname"><i class="fa-solid fa-user"></i> Full name</label>
+            <input type="text" id="cname" data-required placeholder="Your name">
+            <span class="kq-req-badge">Please enter your name</span>
+          </div>
+          <div class="kq-field">
+            <label for="cphone"><i class="fa-solid fa-phone"></i> Phone</label>
+            <input type="tel" id="cphone" data-required data-phone placeholder="03xx-xxxxxxx">
+            <span class="kq-req-badge">Enter a valid Pakistani number</span>
+          </div>
+        </div>
+        <div class="kq-form-2col">
+          <div class="kq-field">
+            <label for="guests"><i class="fa-solid fa-users"></i> Guests</label>
+            <input type="number" id="guests" data-required min="10" placeholder="e.g. 120">
+            <span class="kq-req-badge">How many guests?</span>
+          </div>
+          <div class="kq-field">
+            <label for="cdate"><i class="fa-solid fa-calendar"></i> Event date</label>
+            <input type="date" id="cdate" data-required>
+            <span class="kq-req-badge">Pick a date</span>
+          </div>
+        </div>
+        <div class="kq-field">
+          <label for="ctype"><i class="fa-solid fa-list"></i> Event type</label>
+          <select id="ctype">
+            <option>Wedding / Mehndi</option>
+            <option>Corporate lunch</option>
+            <option>Birthday / Aqiqah</option>
+            <option>Family dawat</option>
+          </select>
+        </div>
+        <div class="kq-field">
+          <label for="cnotes"><i class="fa-solid fa-pen"></i> Menu preferences</label>
+          <textarea id="cnotes" rows="4" placeholder="Tell us what you'd like on the menu..."></textarea>
+        </div>
+        <button class="kq-btn" type="submit" style="width:100%"><i class="fa-solid fa-paper-plane"></i> Send Request</button>
+      </form>
+    </div>
+  </div>
+</main>
+
+<footer id="kqFooter"></footer>
+<div id="kqShellExtras"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
