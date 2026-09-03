@@ -7,53 +7,53 @@
 
   const DISHES = [
     /* --- DEALS --- */
-    { id: "d1", name: "Friday Family Deal", cat: "deals", price: 1450, was: 1899, serves: 4, img: "Chicken Biryani.webp", tag: "DEAL", hot: true, desc: "Chicken Biryani (2 servings) + Salad + Raita + 1.5L Cold Drink." },
-    { id: "d2", name: "Ghar Ka Khana Box", cat: "deals", price: 999, was: 1290, serves: 3, img: "Daal Chawal.jpg", tag: "DEAL", hot: true, desc: "Any daal + any salan + white rice + 4 roti — a full desi dastarkhwan." },
+    { id: "d1", name: "Friday Family Deal", cat: "deals", price: 1250, was: 1899, serves: 4, img: "Chicken Biryani.webp", tag: "DEAL", hot: true, desc: "Chicken Biryani (2 servings) + Salad + Raita + 1.5L Cold Drink." },
+    { id: "d2", name: "Ghar Ka Khana Box", cat: "deals", price: 1250, was: 1290, serves: 4, img: "Daal Chawal.jpg", tag: "DEAL", hot: true, desc: "Any daal + any salan + white rice + 4 roti — a full desi dastarkhwan." },
 
     /* --- DAAL & SABZI --- */
-    { id: "d3", name: "Yellow Daal with 1 Shami", cat: "daal", price: 320, was: 380, serves: 1, img: "Yellow daal.png", tag: "BESTSELLER", hot: true, desc: "Ghee-tarka moong daal served with one hand-pressed beef shami kabab." },
-    { id: "d4", name: "Lauki Ki Sabzi", cat: "daal", price: 260, serves: 2, img: "Lauki-Sabzi.jpg", tag: "", desc: "Bottle gourd slow-cooked in tomato, garlic and desi masala — light and homely." },
-    { id: "d5", name: "Mong Masoor Ki Daal", cat: "daal", price: 280, serves: 2, img: "Moong masoor daal.png", tag: "", desc: "Moong and masoor cooked together, finished with a sizzling zeera tarka." },
-    { id: "d6", name: "Daal Palak", cat: "daal", price: 300, serves: 2, img: "Daal-Palak.jpg", tag: "", desc: "Lentils folded through fresh spinach with garlic and green chilli." },
-    { id: "d7", name: "Kali Daal", cat: "daal", price: 340, was: 400, serves: 2, img: "kali daal.jpg", tag: "", desc: "Daal maash simmered overnight on low flame with butter and cream." },
+    { id: "d3", name: "Yellow Daal chawal with 1 Shami", cat: "daal", price: 450, was: 380, serves: 1, img: "Yellow daal.png", tag: "BESTSELLER", hot: true, desc: "Ghee-tarka moong daal served with one hand-pressed beef shami kabab,serves:1." },
+    { id: "d4", name: "Lauki Ki Sabzi", cat: "daal", price: 260, serves: 1, img: "Lauki-Sabzi.jpg", tag: "", desc: "Bottle gourd slow-cooked in tomato, garlic and desi masala — light and homely." },
+    { id: "d5", name: "Mong Masoor Ki Daal", cat: "daal", price: 280, serves: 1, img: "Moong masoor daal.png", tag: "", desc: "Moong and masoor cooked together, finished with a sizzling zeera tarka." },
+    { id: "d6", name: "Daal Palak", cat: "daal", price: 300, serves: 1, img: "Daal-Palak.jpg", tag: "", desc: "Lentils folded through fresh spinach with garlic and green chilli." },
+    { id: "d7", name: "Kali Daal", cat: "daal", price: 300, was: 400, serves: 1, img: "kali daal.jpg", tag: "", desc: "Daal maash simmered overnight on low flame with butter and cream." },
     { id: "d8", name: "Bhindi Sabzi", cat: "daal", price: 320, serves: 2, img: "bhindi sabzi.webp", tag: "", desc: "Crisp okra bhujia with onion, tomato and hand-crushed spice — never slimy." },
 
     /* --- CHICKEN --- */
-    { id: "d9", name: "Chicken Karahi", cat: "chicken", price: 850, was: 999, serves: 3, img: "karahi.jpg", tag: "CHEF SPECIAL", hot: true, desc: "Wok-tossed chicken in tomato, ginger and green chilli, finished with coriander." },
-    { id: "d10", name: "Chicken Chana Daal", cat: "chicken", price: 620, serves: 3, img: "Chicken chana.avif", tag: "", desc: "Chicken slow-cooked with chana daal until the gravy turns thick and glossy." },
-    { id: "d11", name: "Chicken Aalo Salan", cat: "chicken", price: 560, serves: 3, img: "chicken-aloo-salan-.jpg", tag: "", desc: "Everyday Karachi favourite — chicken and potato in a light red salan." },
+    { id: "d9", name: "Chicken Karahi", cat: "chicken", price: 850, was: 999, serves: 2, img: "karahi.jpg", tag: "CHEF SPECIAL", hot: true, desc: "Wok-tossed chicken in tomato, ginger and green chilli, finished with coriander." },
+    { id: "d10", name: "Chicken Chana Daal", cat: "chicken", price: 450, serves: 2, img: "Chicken chana.avif", tag: "", desc: "Chicken slow-cooked with chana daal until the gravy turns thick and glossy." },
+    { id: "d11", name: "Chicken Aalo Salan", cat: "chicken", price: 450, serves: 2, img: "chicken-aloo-salan-.jpg", tag: "", desc: "Everyday Karachi favourite — chicken and potato in a light red salan." },
 
     /* --- BEEF & MUTTON --- */
-    { id: "d12", name: "Beef Bhuna Ghosht", cat: "beef", price: 780, was: 899, serves: 3, img: "bhuna gohst.jpg", tag: "BESTSELLER", hot: true, desc: "Beef bhunoed for an hour until the masala clings to every piece. No gravy, all flavour." },
-    { id: "d13", name: "Galawati Boti", cat: "beef", price: 720, was: 850, serves: 2, img: "boti.jpg", tag: "NEW", hot: true, desc: "Melt-in-mouth marinated boti, seared hot and served with onion and lemon." },
-    { id: "d14", name: "Arvi Ghosht", cat: "beef", price: 690, serves: 3, img: "Arvi.webp", tag: "", desc: "Tender mutton and arvi in a rich brown gravy — a Sunday classic." },
-    { id: "d15", name: "Aalu Ghosht", cat: "beef", price: 650, serves: 3, img: "Aloo gohst.avif", tag: "", desc: "Mutton and potato simmered together in traditional desi masala." },
-    { id: "d16", name: "Qeema Aalu", cat: "beef", price: 540, serves: 2, img: "aloo-keema.jpg", tag: "", desc: "Minced beef bhuna with soft potato cubes, whole spice and green chilli." },
+    { id: "d12", name: "Beef Bhuna Ghosht", cat: "beef", price: 600, was: 899, serves: 2, img: "bhuna gohst.jpg", tag: "BESTSELLER", hot: true, desc: "Beef bhunoed for an hour until the masala clings to every piece. No gravy, all flavour." },
+    { id: "d13", name: "Galawati Boti", cat: "beef", price: 600, was: 850, serves: 2, img: "boti.jpg", tag: "NEW", hot: true, desc: "Melt-in-mouth marinated boti, seared hot and served with onion and lemon." },
+    { id: "d14", name: "Arvi Ghosht", cat: "beef", price: 450, serves: 2, img: "Arvi.webp", tag: "", desc: "Tender mutton and arvi in a rich brown gravy — a Sunday classic." },
+    { id: "d15", name: "Aalu Ghosht", cat: "beef", price: 450, serves: 2, img: "Aloo gohst.avif", tag: "", desc: "Mutton and potato simmered together in traditional desi masala." },
+    { id: "d16", name: "Qeema Aalu", cat: "beef", price: 450, serves: 2, img: "aloo-keema.jpg", tag: "", desc: "Minced beef bhuna with soft potato cubes, whole spice and green chilli." },
 
     /* --- HALEEM --- */
-    { id: "d17", name: "Beef Haleem", cat: "haleem", price: 400, was: 460, serves: 2, img: "beef haleem.jpg", tag: "BESTSELLER", hot: true, desc: "Seven-hour stone-ground wheat and lentils with shredded beef and crisp onion." },
-    { id: "d18", name: "Chicken Haleem", cat: "haleem", price: 420, serves: 2, img: "chicken haleem.jpg", tag: "", hot: true, desc: "Lighter haleem with shredded chicken, ginger julienne and lemon on the side." },
+    { id: "d17", name: "Beef Haleem", cat: "haleem", price: 480, was: 460, serves: 2, img: "beef haleem.jpg", tag: "BESTSELLER", hot: true, desc: "Seven-hour stone-ground wheat and lentils with shredded beef and crisp onion." },
+    { id: "d18", name: "Chicken Haleem", cat: "haleem", price: 480, serves: 2, img: "chicken haleem.jpg", tag: "", hot: true, desc: "Lighter haleem with shredded chicken, ginger julienne and lemon on the side." },
 
     /* --- RICE --- */
-    { id: "d19", name: "White Rice", cat: "rice", price: 180, serves: 2, img: "white rice.avif", tag: "", desc: "Steamed long-grain basmati, separated grain by grain." },
-    { id: "d20", name: "Daal Chawal", cat: "rice", price: 320, was: 380, serves: 2, img: "Daal Chawal.jpg", tag: "BESTSELLER", hot: true, desc: "The ultimate comfort plate — tarka daal poured over hot white rice." },
-    { id: "d21", name: "Chicken Biryani", cat: "rice", price: 450, was: 520, serves: 2, img: "Chicken Biryani.webp", tag: "", hot: true, desc: "Basmati layered with masala chicken, kewra, aloo and fried onion." },
+    { id: "d19", name: "White Rice", cat: "rice", price: 250, serves: 1, img: "white rice.avif", tag: "", desc: "Steamed long-grain basmati, separated grain by grain." },
+    { id: "d20", name: "Daal Chawal", cat: "rice", price:350 , was: 380, serves: 1, img: "Daal Chawal.jpg", tag: "BESTSELLER", hot: true, desc: "The ultimate comfort plate — tarka daal poured over hot white rice." },
+    { id: "d21", name: "Chicken Biryani", cat: "rice", price: 350, was: 520, serves: 1, img: "Chicken Biryani.webp", tag: "", hot: true, desc: "Basmati layered with masala chicken, kewra, aloo and fried onion." },
 
     /* --- SIDES & RAITA --- */
-    { id: "d22", name: "Egg Kharaiza (Khagina)", cat: "sides", price: 280, serves: 2, img: "khagina.jpg", tag: "NEW", desc: "Desi scrambled eggs with tomato, onion and green chilli — breakfast any time." },
-    { id: "d23", name: "Shami Kabab (6 pcs)", cat: "sides", price: 300, serves: 3, img: "shami.jpg", tag: "", desc: "Melt-in-mouth beef and chana daal patties, pan-seared in ghee." },
-    { id: "d24", name: "Dahi Phulki with Tarka", cat: "sides", price: 260, serves: 2, img: "dahi phulki.jpg", tag: "", desc: "Soft phulki in whisked yoghurt with a red chilli and curry-leaf tarka." },
-    { id: "d25", name: "Sweet Dahi Phulki", cat: "sides", price: 260, serves: 2, img: "Sweet phulki.jpg", tag: "", desc: "Sweetened yoghurt, soft phulki and mint — cooling and mildly sweet." },
-    { id: "d26", name: "Baingan Ka Raita", cat: "sides", price: 180, serves: 2, img: "baingan raita.jpg", tag: "", desc: "Roasted aubergine whisked into yoghurt with zeera and black salt." },
-    { id: "d27", name: "Tandoori Naan (4 pcs)", cat: "sides", price: 120, serves: 2, img: "naan.jpg", tag: "", desc: "Fresh from the clay oven, brushed with butter." },
+    { id: "d22", name: "Egg Kharaiza (Khagina)", cat: "sides", price: 300, serves: 1, img: "khagina.jpg", tag: "NEW", desc: "Desi scrambled eggs with tomato, onion and green chilli — breakfast any time." },
+    { id: "d23", name: "Shami Kabab (6 pcs)", cat: "sides", price: 500,server:2,  img: "shami.jpg", tag: "", desc: "Melt-in-mouth beef and chana daal patties, pan-seared in ghee." },
+    { id: "d24", name: "Dahi Phulki with Tarka", cat: "sides", price: 280, serves: 2, img: "dahi phulki.jpg", tag: "", desc: "Soft phulki in whisked yoghurt with a red chilli and curry-leaf tarka." },
+    { id: "d25", name: "Sweet Dahi Phulki", cat: "sides", price: 280, serves: 2, img: "Sweet phulki.jpg", tag: "", desc: "Sweetened yoghurt, soft phulki and mint — cooling and mildly sweet." },
+    { id: "d26", name: "Baingan Ka Raita", cat: "sides", price: 280, serves: 2, img: "baingan raita.jpg", tag: "", desc: "Roasted aubergine whisked into yoghurt with zeera and black salt." },
+    { id: "d27", name: "Tandoori Naan (4 pcs)", cat: "sides", price: 200, serves: 2, img: "naan.jpg", tag: "", desc: "Fresh from the clay oven, brushed with butter." },
 
     /* --- BEVERAGES --- */
-    { id: "d28", name: "Cold Drinks", cat: "drinks", price: 90, serves: 1, img: "pepsi.jpg", tag: "", desc: "500ml chilled bottle — your choice of flavour." },
-    { id: "d29", name: "Lassi", cat: "drinks", price: 150, serves: 1, img: "lassi.jpg", tag: "", desc: "Hand-churned yoghurt lassi — sweet or namkeen, served ice cold." },
-    { id: "d30", name: "Mango Milk Shake", cat: "drinks", price: 220, was: 260, serves: 1, img: "mango.jpg", tag: "NEW", hot: true, desc: "Thick shake blended with fresh Sindhri mango pulp and chilled milk." },
+    { id: "d28", name: "Cold Drinks", cat: "drinks", price: 150, serves: 1, img: "pepsi.jpg", tag: "", desc: "345ml chilled bottle — your choice of flavour." },
+    { id: "d29", name: "Lassi", cat: "drinks", price: 250, serves: 1, img: "lassi.jpg", tag: "", desc: "Hand-churned yoghurt lassi — sweet or namkeen, served ice cold." },
+    { id: "d30", name: "Mango Milk Shake", cat: "drinks", price:250 , was: 260, serves: 1, img: "mango.jpg", tag: "NEW", hot: true, desc: "Thick shake blended with fresh Sindhri mango pulp and chilled milk." },
 
     /* --- DESSERT --- */
-    { id: "d31", name: "Desi Kheer", cat: "dessert", price: 220, serves: 2, img: "kheer.webp", tag: "", desc: "Slow-reduced rice pudding with cardamom, pistachio and almond flakes." }
+    { id: "d31", name: "Shahi Kheer", cat: "dessert", price: 180, serves: 2, img: "kheer.webp", tag: "", desc: "Slow-reduced rice pudding with cardamom, pistachio and almond flakes." }
   ];
 
   const CATEGORIES = [
@@ -120,18 +120,9 @@
   const FREE_DELIVERY_OVER = 1500;
 
   const AREAS = [
-    "Agha Khan University Hospital",
-    "Al Hamra Society",
-    "Amynabad Colony",
-    "Army Officers Housing Society",
     "Azizabad",
     "Azizabad Block 8",
-    "B 1 Area",
-    "B AREA",
     "Bahadurabad",
-    "Bakhar Goth",
-    "Banglor Town-Shahrah-e-Faisal",
-    "BMCHS",
     "Buffer Zone",
     "Buffer Zone 14/A",
     "Buffer Zone 15-A/1",
@@ -147,12 +138,9 @@
     "Bufferzone - Sector 15-B",
     "Bufferzone - Sector 16-A",
     "Bufferzone - Sector 16-A/4",
-    "Bundhani Colony",
-    "CP & Berar Society",
     "Dastageer Block 9",
-    "Dawood Society",
     "Dhoraji Society",
-    "Dolmen Mall Tariq Road",
+    " Tariq Road",
     "Essa Nagri",
     "Federal B Area Block 1",
     "Federal B Area Block 2",
@@ -174,8 +162,6 @@
     "Federal B Area Block 18",
     "Federal B Area Block 19",
     "Federal B Area Block 22",
-    "Firdous Colony",
-    "Garden East",
     "Gulistan-e-Jauhar - Block 1",
     "Gulistan-e-Jauhar - Block 2",
     "Gulistan-e-Jauhar - Block 3",
@@ -212,39 +198,18 @@
     "Gulshan e Iqbal Block 19",
     "Gulshan e Iqbal Block 20",
     "Gulshan e Shameem",
-    "Hussain Hazara goth",
+   "Karimabad",
     "Hussainabad",
-    "Karachi Golf Club",
-    "KDA Officers Society",
-    "KDA Scheme 1",
     "Liaquatabad Block 1",
     "Liaquatabad Block 2",
     "Liaquatabad No 5",
     "Liaquatabad No 10",
-    "Martin Quarters East",
-    "Martin Quarters West",
-    "Mashriq Society",
-    "Memon Nagar",
-    "Metroville",
-    "Metroville 1",
-    "Metroville 2",
-    "Moosa Colony",
-    "Mujahidabad",
-    "Mustafa Colony",
-    "National Stadium",
-    "National Stadium Road",
-    "Navy Colony Karsaz",
     "Nazimabad Block 1",
     "Nazimabad Block 2",
     "Nazimabad Block 3",
     "Nazimabad Block 4",
     "Nazimabad Block 5",
     "Nazimabad Number 7",
-    "Ned University",
-    "New Naval Colony",
-    "NHS Phase 1",
-    "NHS Phase 2",
-    "NHS Phase 3",
     "North Karachi",
     "North Karachi - Sector 5-C",
     "North Karachi - Sector 8",
@@ -267,20 +232,10 @@
     "North Nazimabad - Block N",
     "North Nazimabad - Block R",
     "North Nazimabad - Block S",
-    "Paposh Nagar",
-    "Pib Colony",
-    "PNS Bahadur",
-    "Qasba Colony",
-    "Quaid e Azam Colony",
-    "Rizvia Society",
     "Sakhi Hasan Chowrangi",
     "Sharifabad",
-    "Sir Syed University of Engineering and Technology",
-    "UBL Sports Complex",
-    "University Of Karachi",
-    "Valika",
+    "Water Pump",
     "Yaseenabad",
-    "Ziauddin Hospital Nazimabad"
   ];
 
   const PAGES = [
